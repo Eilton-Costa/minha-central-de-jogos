@@ -1,0 +1,45 @@
+# Ambiente Python
+.venv/
+venv/
+env/
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Arquivos de compilação
+build/
+dist/
+
+# Instaladores e executáveis
+output/
+*.exe
+
+# Arquivos e diretórios de cache
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Banco de dados pessoal e dados de utilização
+database/*.json
+database/**/*.json
+database/*.txt
+database/**/*.txt
+
+# Chaves e informações confidenciais
+.env
+.env.*
+**/*secret*
+**/*password*
+
+# Configurações locais
+nome_usuario.txt
+
+# Arquivos temporários do editor
+.vscode/
+.idea/
+# Documento interno de desenvolvimento
+LEIA-ME_ETAPA5.txt

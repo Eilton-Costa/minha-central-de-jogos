@@ -1,86 +1,121 @@
+<div align="center">
+
 # 🎮 Minha Central de Jogos
 
-Uma central de jogos para organizar sua biblioteca, acompanhar suas atividades e reunir seus jogos favoritos em um único lugar.
+### Sua coleção de jogos em um só lugar.
+
+Organize sua biblioteca, acompanhe seu progresso e personalize sua experiência em uma central feita para jogadores.
+
+[![Baixar versão 1.0.0](https://img.shields.io/badge/Download-v1.0.0-1687e8?style=for-the-badge&logo=windows)](https://github.com/Eilton-Costa/minha-central-de-jogos/releases/latest)
+[![Licença: PolyForm Noncommercial](https://img.shields.io/badge/Licença-PolyForm%20Noncommercial-blue?style=for-the-badge)](LICENSE)
+
+</div>
+
+---
+
+## 🕹️ Conheça o aplicativo
+
+A **Minha Central de Jogos** é um aplicativo para Windows desenvolvido para reunir ferramentas de organização e acompanhamento de uma biblioteca de jogos em uma única interface.
+
+A tela principal apresenta os jogos em formato de cards, com capas, pesquisa e filtros. Os módulos adicionais ajudam a acompanhar o histórico, o tempo de jogo, as conquistas e os desafios.
+
+<div align="center">
+
+![Tela principal da Minha Central de Jogos](docs/images/tela-principal.png)
+
+*Biblioteca de jogos — tela principal da versão 1.0.0.*
+
+</div>
 
 ## ✨ Funcionalidades
 
-- 📚 Biblioteca para organizar jogos.
-- ⭐ Sistema de favoritos.
-- 🕹️ Integração com controles, incluindo GameSir.
-- 📊 Histórico e registro do tempo de jogo.
-- 🏆 Sistema de conquistas.
-- 💾 Backup e restauração de dados.
-- 🎨 Personalização visual.
-- 🎬 Protetor de tela com vídeos do YouTube.
-- 👤 Personalização do nome do jogador.
+| Recurso | O que oferece |
+|---|---|
+| 🎮 Biblioteca de jogos | Visualização dos jogos em cards, pesquisa e filtros. |
+| 🕹️ Emuladores | Área dedicada ao gerenciamento e acesso a emuladores. |
+| ⭐ Favoritos | Marcação dos jogos preferidos. |
+| 🕘 Histórico | Registro dos jogos e emuladores executados. |
+| ⏱️ Tempo de jogo | Acompanhamento do tempo de utilização. |
+| 🏆 Conquistas | Objetivos e progresso de conquistas. |
+| 🎯 Desafios | Desafios diários e semanais com acompanhamento de progresso. |
+| 📊 Estatísticas e nível | Recursos para acompanhar a evolução e a atividade. |
+| 💾 Backup e restauração | Proteção e recuperação dos dados da biblioteca. |
+| 🎨 Personalização | Opções de tema, imagem de fundo e efeitos visuais. |
+| 🔔 Notificações e novidades | Área de avisos e novidades do aplicativo. |
+| 📅 Calendário gamer e metas | Organização de metas e atividades relacionadas aos jogos. |
 
-## 🖥️ Requisitos
+## 📸 Galeria de telas
 
-- Windows 10 ou superior.
-- Para executar o instalador: não é necessário instalar Python separadamente.
-- Para desenvolver ou gerar o executável:
-  - Python 3.11 ou superior.
-  - Inno Setup para gerar o instalador.
+### Histórico de jogos
 
-## 📥 Instalação
+Consulte os registros de execução dos jogos e emuladores.
 
-1. Acesse a seção **Releases** deste repositório.
-2. Baixe o instalador mais recente.
-3. Execute `Instalador_Minha_Central_de_Jogos.exe`.
-4. Informe seu nome durante a instalação.
-5. Conclua a instalação e abra o aplicativo.
+![Histórico de jogos](docs/images/historico-de-jogos.png)
 
-## 🛠️ Como gerar seu próprio instalador
+### Conquistas
 
-1. Instale o Python 3.11 ou superior.
-2. Baixe ou clone este repositório.
-3. Execute o arquivo `PREPARAR_INSTALADOR.bat`.
-4. Aguarde a instalação das dependências e a geração do executável.
-5. Abra `installer/MinhaCentralDeJogos.iss` no Inno Setup Compiler.
-6. Compile o instalador.
+Acompanhe objetivos, progresso e conquistas desbloqueadas.
 
-O executável será gerado na pasta `output`.
+![Central de conquistas](docs/images/conquistas.png)
 
-## 🔑 Integração com YouTube
+### Desafios diários e semanais
 
-A funcionalidade de vídeos do YouTube pode exigir uma chave própria da API do YouTube Data API v3.
+Visualize os desafios, acompanhe o progresso e veja as atividades concluídas.
 
-A chave deve ser cadastrada nas configurações do aplicativo. Não compartilhe sua chave pessoal.
+![Desafios diários e semanais](docs/images/desafios.png)
 
-## 📂 Estrutura do projeto
+### Backup e restauração
 
-```text
-Minha_Central_de_Jogos/
-├── app/
-│   └── main.py
-├── assets/
-│   ├── branding/
-│   └── capas/
-├── database/
-├── installer/
-│   └── MinhaCentralDeJogos.iss
-├── PREPARAR_INSTALADOR.bat
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
+Crie cópias de segurança e restaure os dados da sua central.
 
-## 📌 Versão
+![Backup e restauração](docs/images/backup-e-restauracao.png)
 
-**1.0.0**
+### Personalização
 
-## 👨‍💻 Sobre o projeto
+Ajuste a aparência, escolha o tema visual e configure opções da experiência.
 
-Minha Central de Jogos é um projeto independente, desenvolvido para uso e distribuição gratuita, conforme os termos da licença.
+![Central de personalização](docs/images/personalizacao.png)
 
-## 🤝 Contribuições
+## ⬇️ Download e instalação
 
-Sugestões, melhorias e contribuições são bem-vindas!
+**Versão atual: 1.0.0**
 
-## 📄 Licença
+1. Acesse a página de [Releases](https://github.com/Eilton-Costa/minha-central-de-jogos/releases/latest).
+2. Baixe o arquivo `Instalador_Minha_Central_de_Jogos.exe`.
+3. Execute o instalador e siga as instruções apresentadas.
+4. Abra a Minha Central de Jogos pelo atalho criado na instalação.
+
+> O instalador é distribuído pela página de Releases do GitHub. Consulte as informações da versão publicada antes de instalar.
+
+## 🖥️ Informações do projeto
+
+- **Aplicativo:** Minha Central de Jogos
+- **Versão apresentada:** 1.0.0
+- **Plataforma indicada na interface:** Windows 11
+- **Tecnologias principais:** Python, PySide6 e pygame-ce
+- **Código-fonte:** [GitHub](https://github.com/Eilton-Costa/minha-central-de-jogos)
+- **Downloads:** [Releases](https://github.com/Eilton-Costa/minha-central-de-jogos/releases)
+
+## 📜 Licença e distribuição
 
 Este projeto utiliza a licença **PolyForm Noncommercial 1.0.0**.
 
-É permitido utilizar, estudar, modificar e compartilhar o projeto conforme os termos da licença.
+O projeto pode ser utilizado, estudado, modificado e compartilhado de acordo com os termos da licença. O uso comercial não é permitido. Leia o arquivo [LICENSE](LICENSE) antes de utilizar ou redistribuir o projeto.
 
-O uso comercial não é permitido. Consulte o arquivo [LICENSE](LICENSE) para conhecer os termos completos.
+A proposta é disponibilizar a ferramenta gratuitamente para a comunidade, respeitando os termos da licença.
+
+## 🤝 Contribuições
+
+Sugestões, relatos de problemas e ideias para melhorias são bem-vindos. Utilize a área de [Issues](https://github.com/Eilton-Costa/minha-central-de-jogos/issues) do repositório para registrar sua contribuição.
+
+---
+
+<div align="center">
+
+**Minha Central de Jogos 1.0.0**
+
+Feita para reunir sua coleção e acompanhar sua jornada gamer. 🎮
+
+[Baixar agora](https://github.com/Eilton-Costa/minha-central-de-jogos/releases/latest) · [Ver código-fonte](https://github.com/Eilton-Costa/minha-central-de-jogos)
+
+</div>
